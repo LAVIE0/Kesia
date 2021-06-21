@@ -167,6 +167,7 @@ ul {
   font-family: titillium Web;
   line-height: 25px;
   margin: 0 30px;
+  letter-spacing: 0.03em;
 }
 .texto-card h2 {
   font-size: 3em;
@@ -199,6 +200,8 @@ ul {
   border-radius: 25px;
   padding: 5px 15px;
   margin-right: 10px;
+  width: 150px;
+  text-align: center;
 }
 .informacoes li:first-child {
   font-family: Pacifico;
@@ -287,4 +290,13 @@ ul {
 }
 .exit img {
   cursor: pointer;
+}
+@media (max-width: 920px) {
+  #intro h1 {
+    font-family: Pacifico;
+  }
+  .texto-card h2,
+  .texto-card h3 {
+    font-family: Pacifico;
+  }
 }
